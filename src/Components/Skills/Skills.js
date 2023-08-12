@@ -1,6 +1,7 @@
 import React from 'react'
 import {BsFillPatchCheckFill} from "react-icons/bs"
 import "./Skills.css"
+import Skill from './Skill'
 
 
 
@@ -12,81 +13,26 @@ const Skills = () => {
       <div className="experiencs_-frontend">
         <h3>Frontend Development</h3>
         <div className="experience__content">
-          <article className='experience__details'>
-            <BsFillPatchCheckFill className='icon'/>
-            <div>
-            <h4>HTML</h4>
-            <small className='text-light'>Intermediate</small>
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsFillPatchCheckFill className='icon'/>
-            <div>
-            <h4>CSS</h4>
-            <small className='text-light'>Intermediate</small>
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsFillPatchCheckFill className='icon'/>
-            <div>
-            <h4>Bootstrap</h4>
-            <small className='text-light'>Intermediate</small>
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsFillPatchCheckFill className='icon'/>
-            <div>
-            <h4>JavaScript</h4>
-            <small className='text-light'>Intermediate</small>
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsFillPatchCheckFill className='icon'/>
-            <div>
-            <h4>React JS</h4>
-            <small className='text-light'>Intermediate</small>
-            </div>
-          </article>
+          <Skill skill="HTML5" level="Intermediate" />
+          <Skill skill="CSS3" level="Intermediate" />
+          <Skill skill="Bootstrap5" level="Intermediate" />
+          <Skill skill="Tailwind CSS" level="Intermediate" />
+          <Skill skill="Material UI" level="Intermediate" />
+          <Skill skill="JavaScript" level="Intermediate" />
+          <Skill skill="TypeScript" level="Intermediate" />
+          <Skill skill="React JS" level="Intermediate" />
+          <Skill skill="Redux" level="Intermediate" />
+          <Skill skill="Next JS" level="Intermediate" />
         </div>
       </div>
       <div className="experiencs_-frontend">
         <h3>Backend Development</h3>
         <div className="experience__content">
-          <article className='experience__details'>
-            <BsFillPatchCheckFill className='icon'/>
-            <div>
-            <h4>Node JS</h4>
-            <small className='text-light'>Basic</small>
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsFillPatchCheckFill className='icon'/>
-            <div>
-            <h4>Express JS</h4>
-            <small className='text-light'>Basic</small>
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsFillPatchCheckFill className='icon'/>
-            <div>
-            <h4>Mongo DB</h4>
-            <small className='text-light'>Basic</small>
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsFillPatchCheckFill className='icon'/>
-            <div>
-            <h4>Git</h4>
-            <small className='text-light'>Basic</small>
-            </div>
-          </article>
-          <article className='experience__details'>
-            <BsFillPatchCheckFill className='icon'/>
-            <div>
-            <h4>GitHub</h4>
-            <small className='text-light'>Bsic</small>
-            </div>
-          </article>
+          <Skill skill="Node JS" level="Intermediate" />
+          <Skill skill="Express JS" level="Intermediate" />
+          <Skill skill="Mongo DB" level="Intermediate" />
+          <Skill skill="Git" level="Basic" />
+          <Skill skill="GitHub" level="Basic" />
         </div>
       </div>
     </div>

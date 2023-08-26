@@ -4,15 +4,47 @@ import pic from "./Assets/images/pic.jpg"
 import pic8 from "./Assets/images/pic8.png"
 import pic5 from "./Assets/images/pic5.jpg"
 import pic6 from "./Assets/images/pic6.jpg"
+import pic7 from "./Assets/images/Nike.png"
+import pic10 from "./Assets/images/youtube.png"
+import pic9 from "./Assets/images/data.png"
 
 export const data = [
+  {
+    id:"6",
+    title:"React Youtube Clone",
+    img: pic10,
+    github:"https://github.com/sameersattar123/React_Youtube_Clone",
+    livedemo:"https://youtube-clone-20.netlify.app/"
+  },
     {
       id:"3",
       title:"React Movie Application",
       img : pic6,
       github:"https://github.com/sameersattar123/Movies-and-Tv-Searching-App",
-      livedemo:"https://melodic-nougat-a0f3fc.netlify.app/?fbclid=IwAR2CjoI0cJWY7B-fVwqoELZcUiLG8NGdEO_uAPmeIEzu4p-VBXv5V6Ft9pI"
+      livedemo:"https://myenterntainement.netlify.app/"
     },
+    {
+      id:"7",
+      title:"React Nike Website",
+      img: pic7,
+      github:"https://github.com/sameersattar123/Nike_Website",
+      livedemo:"https://nike-website22.netlify.app/"
+    },
+    {
+      id:"4",
+      title:"React Food Recipe Application",
+      img: pic8,
+      github:"https://github.com/sameersattar123/React_Recipe_Finder_App",
+      livedemo:"https://timely-rabanadas-cbc279.netlify.app/"
+    },
+    {
+      id:"0",
+      title:"React Data Analytics Website",
+      img: pic9,
+      github:"https://github.com/sameersattar123/React_Analytics_Website",
+      livedemo:"https://brilliant-tanuki-65c039.netlify.app/"
+    },
+
     {
       id:"5",
       title:"React GPT-3 Website",
@@ -28,7 +60,7 @@ export const data = [
       livedemo:"https://tesla-clone-v.netlify.app/?fbclid=IwAR2bJimI_rGfrwPLk23l-A6AHgn7Dow5odOfbm9D6zMp9WQZh3G4yLb7-pg"
     },
     {
-      id:"0",
+      id:"9",
       title:"React Crypto Price Application",
       img: pic,
       github:"https://github.com/sameersattar123/React_Crypto_Price_App",
@@ -40,12 +72,5 @@ export const data = [
       img: pic1,
       github:"https://github.com/sameersattar123/React_Budget_App",
       livedemo:"https://budget-app-v1.netlify.app/?fbclid=IwAR2sLQ0uEnwZ_qOliYiyJB11d_L3QHpvfSGYpQ3-oxFd6i3g93ZWUYuG8B4"
-    },
-    {
-      id:"4",
-      title:"React Food Recipe Application",
-      img: pic8,
-      github:"https://github.com/sameersattar123/React_Recipe_Finder_App",
-      livedemo:"https://timely-rabanadas-cbc279.netlify.app/"
     },
   ]
